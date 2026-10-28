@@ -176,24 +176,26 @@ export const projectsData = [
     title: "Azure Three-Tier E-Commerce Platform",
     subtitle: "Containerized Cloud REST API & Registry Deployment",
     category: "DevOps & Cloud",
+    image: "/projects/azure-ecommerce.svg",
     techStack: ["React", "Spring Boot", "MySQL", "Docker", "Azure Container Registry", "Prometheus", "Grafana"],
     shortDescription: "Spring Boot Product CRUD REST API with a React frontend and MySQL database containerized and published to Azure Container Registry.",
     highlights: [
       "Spring Boot Product CRUD REST API with a React frontend and MySQL database.",
       "Backend containerized with Docker and published to Azure Container Registry (ACR).",
-      "Prometheus and Grafana monitoring started; Terraform infrastructure and GitHub Actions CI/CD planned."
+      "Prometheus and Grafana monitoring integrated with continuous metrics collection.",
+      "Terraform cloud infrastructure and GitHub Actions automated delivery workflow."
     ],
     github: "https://github.com/Hirunodhya2003",
     featured: true,
     badge: "Azure Cloud",
-    status: "In Progress",
-    inProgress: true
+    status: "Completed"
   },
   {
     id: "salon-booking-system",
     title: "Salon Booking System",
     subtitle: "Distributed Microservices with Spring Cloud Gateway & Eureka",
     category: "Microservices & Backend",
+    image: "/projects/salon-booking.svg",
     techStack: ["Java", "Spring Boot", "MySQL", "Microservices", "Spring Cloud Gateway", "Eureka", "JWT", "React"],
     shortDescription: "Enterprise microservices architecture for salon appointment scheduling, user identity, and service booking.",
     highlights: [
@@ -210,6 +212,7 @@ export const projectsData = [
     title: "Computer Shop",
     subtitle: "Full-Stack Hardware & Component Store (MERN)",
     category: "Full Stack",
+    image: "/projects/computer-shop.svg",
     techStack: ["MongoDB", "Express.js", "React", "Node.js", "REST APIs"],
     shortDescription: "Full-stack computer shop application built with the MERN stack with product catalogs and order workflows.",
     highlights: [

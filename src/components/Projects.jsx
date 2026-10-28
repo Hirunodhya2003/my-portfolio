@@ -86,27 +86,23 @@ export default function Projects() {
                     <span className="text-[11px] font-mono px-2.5 py-1 rounded-full bg-cyan-950/70 border border-cyan-500/30 text-cyan-300">
                       {project.badge || project.category}
                     </span>
-                    {project.inProgress ? (
-                      <span className="flex items-center gap-1.5 text-[11px] font-mono text-amber-400 px-2 py-0.5 rounded bg-amber-950/40 border border-amber-500/30">
-                        <Clock size={12} />
-                        In Progress
-                      </span>
-                    ) : (
-                      <span className="flex items-center gap-1 text-[11px] font-mono text-emerald-400 px-2 py-0.5 rounded bg-emerald-950/40 border border-emerald-500/30">
-                        <CheckCircle2 size={12} />
-                        Completed
-                      </span>
-                    )}
+                    <span className="flex items-center gap-1 text-[11px] font-mono text-emerald-400 px-2 py-0.5 rounded bg-emerald-950/40 border border-emerald-500/30">
+                      <CheckCircle2 size={12} />
+                      Completed
+                    </span>
                   </div>
 
                   {/* Architecture Diagram Preview Thumbnail */}
                   {project.image && (
-                    <div className="w-full h-36 rounded-xl overflow-hidden mb-4 bg-slate-950 border border-slate-800/80 group-hover:border-cyan-500/40 transition-colors">
+                    <div className="w-full h-40 rounded-xl overflow-hidden mb-4 bg-slate-950 border border-slate-800/80 group-hover:border-cyan-500/40 transition-colors">
                       <img
                         src={project.image}
                         alt={`${project.title} Architecture`}
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                         loading="lazy"
+                        onError={(e) => {
+                          e.currentTarget.style.display = 'none';
+                        }}
                       />
                     </div>
                   )}
@@ -211,6 +207,9 @@ export default function Projects() {
                       src={activeModalProject.image}
                       alt={`${activeModalProject.title} Full Architecture`}
                       className="w-full h-auto object-cover"
+                      onError={(e) => {
+                        e.currentTarget.style.display = 'none';
+                      }}
                     />
                   </div>
                 )}

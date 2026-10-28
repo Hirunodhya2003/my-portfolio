@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080e1a" />
+      <stop offset="100%" stop-color="#0f221a" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="450" rx="16" fill="url(#bg5)" />
+  <rect x="2" y="2" width="796" height="446" rx="14" stroke="#10b981" stroke-opacity="0.3" stroke-width="1.5" />
+
+  <g transform="translate(30, 45)">
+    <rect width="10" height="24" rx="3" fill="#10b981" />
+    <text x="20" y="18" fill="#ffffff" font-family="sans-serif" font-size="18" font-weight="bold">Computer Shop Full-Stack Web Platform</text>
+    <text x="20" y="38" fill="#34d399" font-family="monospace" font-size="12">MongoDB &#8226; Express.js &#8226; React &#8226; Node.js (MERN)</text>
+  </g>
+
+  <!-- MERN Stack 4 Blocks -->
+  <g transform="translate(30, 115)">
+    <!-- Mongo -->
+    <rect x="0" y="0" width="170" height="120" rx="10" fill="#111827" stroke="#10b981" stroke-width="1.5" />
+    <text x="85" y="38" text-anchor="middle" fill="#34d399" font-family="monospace" font-size="14" font-weight="bold">MongoDB</text>
+    <text x="85" y="65" text-anchor="middle" fill="#cbd5e1" font-family="sans-serif" font-size="11">NoSQL Document Store</text>
+    <text x="85" y="90" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="10">Catalog &amp; Cart State</text>
+
+    <!-- Express -->
+    <rect x="190" y="0" width="170" height="120" rx="10" fill="#111827" stroke="#fbbf24" stroke-width="1.5" />
+    <text x="275" y="38" text-anchor="middle" fill="#fbbf24" font-family="monospace" font-size="14" font-weight="bold">Express.js</text>
+    <text x="275" y="65" text-anchor="middle" fill="#cbd5e1" font-family="sans-serif" font-size="11">RESTful Backend API</text>
+    <text x="275" y="90" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="10">Endpoint Routing</text>
+
+    <!-- React -->
+    <rect x="380" y="0" width="170" height="120" rx="10" fill="#111827" stroke="#38bdf8" stroke-width="1.5" />
+    <text x="465" y="38" text-anchor="middle" fill="#38bdf8" font-family="monospace" font-size="14" font-weight="bold">React</text>
+    <text x="465" y="65" text-anchor="middle" fill="#cbd5e1" font-family="sans-serif" font-size="11">Component Architecture</text>
+    <text x="465" y="90" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="10">Responsive Storefront</text>
+
+    <!-- Node -->
+    <rect x="570" y="0" width="170" height="120" rx="10" fill="#111827" stroke="#22c55e" stroke-width="1.5" />
+    <text x="655" y="38" text-anchor="middle" fill="#22c55e" font-family="monospace" font-size="14" font-weight="bold">Node.js</text>
+    <text x="655" y="65" text-anchor="middle" fill="#cbd5e1" font-family="sans-serif" font-size="11">Asynchronous Runtime</text>
+    <text x="655" y="90" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="10">Event-driven I/O</text>
+  </g>
+
+  <!-- Summary info box -->
+  <g transform="translate(30, 265)">
+    <rect width="740" height="145" rx="12" fill="#0d1720" stroke="#1e293b" />
+    <text x="24" y="30" fill="#38bdf8" font-family="monospace" font-size="13" font-weight="bold">&gt; System Features:</text>
+    <g transform="translate(24, 55)" font-family="sans-serif" font-size="12" fill="#cbd5e1">
+      <text y="15">&#8226; Complete computer hardware and accessories catalog with shopping workflow.</text>
+      <text y="40">&#8226; Full CRUD inventory management and responsive customer browsing experience.</text>
+      <text y="65">&#8226; Built with MongoDB document modeling and modular Express.js routes.</text>
+    </g>
+  </g>
+</svg>
