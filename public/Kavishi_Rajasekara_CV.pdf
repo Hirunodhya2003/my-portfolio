@@ -1,0 +1,85 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 1350 >>
+stream
+BT
+/F2 22 Tf
+50 740 Td
+(Kavishi Hirunodhya Rajasekara) Tj
+/F1 11 Tf
+0 -22 Td
+(Cloud & DevOps Enthusiast | Software Engineering Undergraduate) Tj
+0 -15 Td
+(Email: kavishirajasekara@gmail.com | GitHub: github.com/Hirunodhya2003) Tj
+/F2 14 Tf
+0 -30 Td
+(EDUCATION) Tj
+/F1 10 Tf
+0 -16 Td
+(NSBM Green University - BSc (Hons) in Software Engineering (3rd Year, GPA: 3.78 / 4.00)) Tj
+0 -14 Td
+(Rathnawali College, Gampaha - G.C.E. Advanced Level (Physical Science Stream)) Tj
+/F2 14 Tf
+0 -28 Td
+(CERTIFICATIONS) Tj
+/F1 10 Tf
+0 -16 Td
+(Microsoft Certified: Azure Fundamentals (AZ-900)) Tj
+/F2 14 Tf
+0 -28 Td
+(TECHNICAL SKILLS) Tj
+/F1 10 Tf
+0 -16 Td
+(Cloud & Infra: AWS (EC2, VPC, ALB, RDS), Microsoft Azure, Terraform (IaC)) Tj
+0 -14 Td
+(DevOps: Docker, Docker Compose, Jenkins CI/CD, GitHub Actions, Nginx, Linux) Tj
+0 -14 Td
+(Observability: Prometheus, Grafana, Node Exporter, Spring Boot Actuator) Tj
+0 -14 Td
+(Languages & Stacks: Java, Python, C#, JavaScript, Spring Boot, React, MySQL, MongoDB) Tj
+/F2 14 Tf
+0 -28 Td
+(FEATURED PROJECTS) Tj
+/F1 10 Tf
+0 -16 Td
+(1. Employee Management DevOps: Jenkins CI/CD, Docker Compose, AWS EC2, Prometheus, Grafana) Tj
+0 -14 Td
+(2. Terraform AWS Three-Tier Architecture: VPC, Public/Private Subnets, ALB, Private EC2 & RDS) Tj
+0 -14 Td
+(3. Azure Three-Tier E-Commerce Platform: Spring Boot API, React, Docker, Azure Container Registry) Tj
+0 -14 Td
+(4. Salon Booking System: Microservices Architecture, Spring Cloud Gateway, Eureka, JWT) Tj
+0 -14 Td
+(5. Computer Shop: Full-stack MERN Application) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000244 00000 n 
+0000001648 00000 n 
+0000001717 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+1791
+%%EOF

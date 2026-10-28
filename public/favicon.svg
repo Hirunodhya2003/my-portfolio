@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="cloudGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#4facfe" />
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38ef7d" />
+      <stop offset="100%" stop-color="#11998e" />
+    </linearGradient>
+  </defs>
+  <!-- Background badge -->
+  <rect width="64" height="64" rx="16" fill="#0b1120" />
+  <rect x="2" y="2" width="60" height="60" rx="14" stroke="#00f2fe" stroke-opacity="0.3" stroke-width="1.5" />
+  
+  <!-- Cloud Icon Outline -->
+  <path d="M44 38c3.314 0 6-2.686 6-6 0-3.08-2.324-5.617-5.3-5.96C43.834 21.05 38.647 17 32 17c-6.84 0-12.44 4.38-13.68 10.37C15.34 28.02 13 30.73 13 34c0 3.866 3.134 7 7 7h24z" 
+        stroke="url(#cloudGrad)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Code Prompt / Terminal Symbol -->
+  <path d="M26 31l4 3-4 3" stroke="#38ef7d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="33" y1="37" x2="38" y2="37" stroke="#00f2fe" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

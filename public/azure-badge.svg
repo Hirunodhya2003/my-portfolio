@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="azureBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#008AD7" />
+      <stop offset="100%" stop-color="#005A9E" />
+    </linearGradient>
+    <linearGradient id="azureGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#50E6FF" />
+      <stop offset="100%" stop-color="#0078D4" />
+    </linearGradient>
+  </defs>
+  <!-- Hexagon Badge Base -->
+  <polygon points="60,6 108,33 108,87 60,114 12,87 12,33" fill="#0A192F" stroke="url(#azureGlow)" stroke-width="3" />
+  <polygon points="60,12 102,36 102,84 60,108 18,84 18,36" fill="#102A4C" />
+  
+  <!-- Azure Logo Graphic -->
+  <path d="M42 36h14.5l14 26.5L49 84H34l22.5-31.5L42 36z" fill="#0078D4" />
+  <path d="M57 62.5l7.5-14.5 15.5 28.5L74 84 57 62.5z" fill="url(#azureGlow)" />
+  <path d="M34 84h52l-9.5-12.5H48L34 84z" fill="#005A9E" opacity="0.8" />
+</svg>
