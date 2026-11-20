@@ -1,3 +1,5 @@
+const asset = (path) => `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}`;
+
 export const personalData = {
   name: "Kavishi Hirunodhya Rajasekara",
   preferredName: "Kavishi Rajasekara",
@@ -20,8 +22,8 @@ export const personalData = {
   email: "kavishirajasekara@gmail.com",
   github: "https://github.com/Hirunodhya2003",
   linkedin: "https://linkedin.com/in/kavishi-rajasekara",
-  profileImage: "/profile.png",
-  cvPath: "/Kavishi_Rajasekara_CV.pdf",
+  profileImage: asset("profile.png"),
+  cvPath: asset("Kavishi_Rajasekara_CV.pdf"),
   stats: [
     { label: "GPA", value: "3.78 / 4.0" },
     { label: "Certification", value: "AZ-900" },
@@ -125,7 +127,7 @@ export const projectsData = [
     title: "Employee Management DevOps Project",
     subtitle: "End-to-End Automated CI/CD & Observability Pipeline",
     category: "DevOps & Cloud",
-    image: "/projects/employee-devops.svg",
+    image: asset("projects/employee-devops.svg"),
     techStack: ["Jenkins", "Docker", "AWS EC2", "Prometheus", "Grafana", "Spring Boot", "React", "MySQL 8.4", "Nginx"],
     shortDescription: "An end-to-end DevOps workflow for an Employee Management CRUD application (React + Vite, Spring Boot on Java 17, MySQL 8.4).",
     highlights: [
@@ -151,7 +153,7 @@ export const projectsData = [
     title: "Terraform AWS Three-Tier Architecture",
     subtitle: "Production-Grade Infrastructure as Code (IaC)",
     category: "DevOps & Cloud",
-    image: "/projects/terraform-aws.svg",
+    image: asset("projects/terraform-aws.svg"),
     techStack: ["Terraform", "AWS VPC", "ALB", "EC2", "RDS MySQL", "Security Groups"],
     shortDescription: "A three-tier AWS infrastructure provisioned entirely with Terraform across high-availability zones.",
     highlights: [
@@ -176,7 +178,7 @@ export const projectsData = [
     title: "Azure Three-Tier E-Commerce Platform",
     subtitle: "Containerized Cloud REST API & Registry Deployment",
     category: "DevOps & Cloud",
-    image: "/projects/azure-ecommerce.svg",
+    image: asset("projects/azure-ecommerce.svg"),
     techStack: ["React", "Spring Boot", "MySQL", "Docker", "Azure Container Registry", "Prometheus", "Grafana"],
     shortDescription: "Spring Boot Product CRUD REST API with a React frontend and MySQL database containerized and published to Azure Container Registry.",
     highlights: [
@@ -195,7 +197,7 @@ export const projectsData = [
     title: "Salon Booking System",
     subtitle: "Distributed Microservices with Spring Cloud Gateway & Eureka",
     category: "Microservices & Backend",
-    image: "/projects/salon-booking.svg",
+    image: asset("projects/salon-booking.svg"),
     techStack: ["Java", "Spring Boot", "MySQL", "Microservices", "Spring Cloud Gateway", "Eureka", "JWT", "React"],
     shortDescription: "Enterprise microservices architecture for salon appointment scheduling, user identity, and service booking.",
     highlights: [
@@ -212,7 +214,7 @@ export const projectsData = [
     title: "Computer Shop",
     subtitle: "Full-Stack Hardware & Component Store (MERN)",
     category: "Full Stack",
-    image: "/projects/computer-shop.svg",
+    image: asset("projects/computer-shop.svg"),
     techStack: ["MongoDB", "Express.js", "React", "Node.js", "REST APIs"],
     shortDescription: "Full-stack computer shop application built with the MERN stack with product catalogs and order workflows.",
     highlights: [
@@ -260,7 +262,7 @@ export const certificationData = {
   issuer: "Microsoft",
   code: "AZ-900",
   credentialUrl: "https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/",
-  badgeImage: "/azure-badge.svg",
+  badgeImage: asset("azure-badge.svg"),
   description: "Demonstrated foundational knowledge of cloud concepts, Azure services, security, compliance, privacy, pricing, and support models.",
   domains: [
     { name: "Cloud Concepts", desc: "IaaS, PaaS, SaaS, High Availability, Scalability & Cloud Elasticity" },
