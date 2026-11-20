@@ -25,7 +25,7 @@ export default function App() {
   }, [darkMode]);
 
   return (
-    <div className={`min-h-screen ${darkMode ? 'dark bg-[#080c14] text-slate-100' : 'light bg-slate-50 text-slate-800'}`}>
+    <div className={`min-h-screen ${darkMode ? 'dark bg-[#050705] text-neutral-100' : 'light bg-neutral-50 text-neutral-900'}`}>
       {/* Sticky Top Navbar */}
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
 
@@ -50,13 +50,13 @@ export default function App() {
         <section id="education" className="py-24 relative overflow-hidden">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col items-center text-center mb-16">
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-950/60 border border-cyan-500/30 text-cyan-400 text-xs font-mono uppercase tracking-wider mb-3">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-green-950/60 border border-green-500/30 text-lime-400 text-xs font-mono uppercase tracking-wider mb-3">
                 <span>Qualifications & Accreditations</span>
               </div>
               <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
-                Education & <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Certification</span>
+                Education & <span className="text-transparent bg-clip-text bg-gradient-to-r from-lime-400 to-green-500">Certification</span>
               </h2>
-              <p className="text-slate-400 text-sm sm:text-base max-w-xl mt-3">
+              <p className="text-neutral-400 text-sm sm:text-base max-w-xl mt-3">
                 Academic foundation in Software Engineering and industry accreditation in Microsoft Azure cloud services.
               </p>
             </div>

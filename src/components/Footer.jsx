@@ -9,15 +9,15 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-[#05080e] border-t border-slate-900 pt-16 pb-12 text-slate-400 relative">
+    <footer className="bg-[#030503] border-t border-green-500/15 pt-16 pb-12 text-neutral-400 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-8 pb-12 border-b border-slate-800/80">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-8 pb-12 border-b border-neutral-800/80">
           
           {/* Brand info (6 cols) */}
           <div className="md:col-span-6 flex flex-col items-start text-left">
             <div className="flex items-center gap-2 mb-3">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-tr from-cyan-500 to-blue-600 flex items-center justify-center text-slate-950 font-mono font-bold text-sm">
+              <div className="w-8 h-8 rounded-lg bg-gradient-to-tr from-lime-400 to-green-500 flex items-center justify-center text-black font-mono font-bold text-sm">
                 KR
               </div>
               <span className="font-bold text-white text-base">
@@ -25,7 +25,7 @@ export default function Footer() {
               </span>
             </div>
             
-            <p className="text-xs text-slate-400 max-w-md leading-relaxed mb-4">
+            <p className="text-xs text-neutral-400 max-w-md leading-relaxed mb-4">
               Third-year BSc (Hons) Software Engineering undergraduate at NSBM Green University. Microsoft Azure (AZ-900) Certified Cloud & DevOps enthusiast building automated, reliable, and observable systems.
             </p>
 
@@ -34,14 +34,14 @@ export default function Footer() {
                 href={personalData.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 rounded-lg bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-white transition-colors"
+                className="p-2 rounded-lg bg-neutral-900 hover:bg-neutral-800 text-neutral-300 hover:text-lime-400 transition-colors"
                 aria-label="GitHub Profile"
               >
                 <GithubIcon size={16} />
               </a>
               <a
                 href={`mailto:${personalData.email}`}
-                className="p-2 rounded-lg bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-cyan-400 transition-colors"
+                className="p-2 rounded-lg bg-neutral-900 hover:bg-neutral-800 text-neutral-300 hover:text-lime-400 transition-colors"
                 aria-label="Email"
               >
                 <Mail size={16} />
@@ -50,7 +50,7 @@ export default function Footer() {
                 href={personalData.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 rounded-lg bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-blue-400 transition-colors"
+                className="p-2 rounded-lg bg-neutral-900 hover:bg-neutral-800 text-neutral-300 hover:text-lime-400 transition-colors"
                 aria-label="LinkedIn"
               >
                 <LinkedinIcon size={16} />
@@ -65,22 +65,22 @@ export default function Footer() {
             </div>
             <ul className="space-y-2 text-xs">
               <li>
-                <a href="#about" className="hover:text-cyan-400 transition-colors">About Me</a>
+                <a href="#about" className="hover:text-lime-400 transition-colors">About Me</a>
               </li>
               <li>
-                <a href="#skills" className="hover:text-cyan-400 transition-colors">Technical Skills</a>
+                <a href="#skills" className="hover:text-lime-400 transition-colors">Technical Skills</a>
               </li>
               <li>
-                <a href="#pipeline" className="hover:text-cyan-400 transition-colors">DevOps Architecture</a>
+                <a href="#pipeline" className="hover:text-lime-400 transition-colors">DevOps Architecture</a>
               </li>
               <li>
-                <a href="#projects" className="hover:text-cyan-400 transition-colors">Featured Projects</a>
+                <a href="#projects" className="hover:text-lime-400 transition-colors">Featured Projects</a>
               </li>
               <li>
-                <a href="#education" className="hover:text-cyan-400 transition-colors">Education & Certification</a>
+                <a href="#education" className="hover:text-lime-400 transition-colors">Education & Certification</a>
               </li>
               <li>
-                <a href="#contact" className="hover:text-cyan-400 transition-colors">Contact</a>
+                <a href="#contact" className="hover:text-lime-400 transition-colors">Contact</a>
               </li>
             </ul>
           </div>
@@ -90,9 +90,9 @@ export default function Footer() {
             <div className="text-xs font-mono font-bold text-white uppercase tracking-wider mb-3">
               System Specs
             </div>
-            <div className="space-y-2 text-xs font-mono text-slate-400">
-              <div className="flex items-center gap-1.5 text-emerald-400">
-                <span className="w-2 h-2 rounded-full bg-emerald-400 inline-block animate-pulse" />
+            <div className="space-y-2 text-xs font-mono text-neutral-400">
+              <div className="flex items-center gap-1.5 text-lime-400">
+                <span className="w-2 h-2 rounded-full bg-lime-400 inline-block animate-pulse" />
                 <span>Status: Available for Hire</span>
               </div>
               <div>Stack: React + Tailwind + Vite</div>
@@ -111,7 +111,7 @@ export default function Footer() {
 
           <button
             onClick={scrollToTop}
-            className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-cyan-400 border border-slate-800 transition-all duration-200"
+            className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-neutral-900 hover:bg-neutral-800 text-neutral-300 hover:text-lime-400 border border-neutral-800 hover:border-green-500/35 transition-all duration-200"
             aria-label="Back to top"
           >
             <span>Back to top</span>

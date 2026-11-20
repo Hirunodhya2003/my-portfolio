@@ -34,7 +34,7 @@ export const skillsData = [
   {
     category: "Cloud & Infrastructure",
     icon: "Cloud",
-    color: "from-sky-500 to-blue-600",
+    color: "from-lime-400 to-green-600",
     description: "Cloud infrastructure provisioning, networking, compute, and managed database services.",
     skills: [
       { name: "AWS", details: "EC2, VPC, Subnets, Security Groups, ALB, RDS" },
@@ -45,7 +45,7 @@ export const skillsData = [
   {
     category: "DevOps & Automation",
     icon: "Workflow",
-    color: "from-cyan-500 to-teal-600",
+    color: "from-green-400 to-emerald-600",
     description: "CI/CD automation pipelines, container orchestration, reverse proxies, and version control.",
     skills: [
       { name: "Docker", details: "Multi-stage builds, Containerization" },
@@ -60,7 +60,7 @@ export const skillsData = [
   {
     category: "Monitoring & Observability",
     icon: "Activity",
-    color: "from-emerald-500 to-green-600",
+    color: "from-emerald-400 to-green-600",
     description: "Metrics collection, real-time telemetry, visual monitoring dashboards, and alert tracking.",
     skills: [
       { name: "Prometheus", details: "Time-series metrics scraping, Alert rules" },
@@ -72,7 +72,7 @@ export const skillsData = [
   {
     category: "Languages",
     icon: "Code",
-    color: "from-indigo-500 to-purple-600",
+    color: "from-lime-500 to-emerald-600",
     description: "Multi-paradigm programming languages for cloud automation and application engineering.",
     skills: [
       { name: "Java", details: "OOP, Java 17, Streams, Concurrency" },
@@ -84,7 +84,7 @@ export const skillsData = [
   {
     category: "Frameworks",
     icon: "Layers",
-    color: "from-violet-500 to-fuchsia-600",
+    color: "from-green-500 to-teal-600",
     description: "Enterprise backend microservices frameworks, runtime environments, and modern UI stacks.",
     skills: [
       { name: "Spring Boot", details: "REST APIs, Security, Microservices, Spring Cloud" },
@@ -97,7 +97,7 @@ export const skillsData = [
   {
     category: "Databases",
     icon: "Database",
-    color: "from-amber-500 to-orange-600",
+    color: "from-emerald-500 to-lime-500",
     description: "Relational and document storage solutions for scalable, persistent data layers.",
     skills: [
       { name: "MySQL", details: "Relational schema design, Indexing, Docker volumes" },
@@ -107,7 +107,7 @@ export const skillsData = [
   {
     category: "Core Concepts",
     icon: "Cpu",
-    color: "from-blue-500 to-cyan-500",
+    color: "from-lime-400 to-emerald-500",
     description: "Architectural patterns and engineering paradigms applied across all projects.",
     skills: [
       { name: "Microservices", details: "Service discovery, API Gateways, Decoupled components" },
